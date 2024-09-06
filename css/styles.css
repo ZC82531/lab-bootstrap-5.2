@@ -1,1 +1,50 @@
-/* Add custom css styles here */
+/* Ensure images are displayed as circles */
+.img-circle {
+    width: 100%; /* Ensure the image fills the column's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the images circular */
+    object-fit: cover; /* Ensure the image covers the circle without stretching */
+  }
+  
+  /* Optional: If you want to control the size of the images */
+  .img-circle-container {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    overflow: hidden; /* Hide any overflow from the circle shape */
+    border-radius: 50%; /* Ensure the container is also circular */
+    display: flex; /* Center the image inside */
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    margin-bottom: 1rem; /* Add some space below each item */
+  }
+
+.second-header { 
+    text-align: center;
+}
+.first-header {
+    text-align: center;
+}
+.row {
+    padding: 40px;
+    text-align: center;
+}
+
+.third {
+    background-color: rgb(202, 202, 202);
+}
+.third img {
+    width: 20%;
+    height: auto;
+}
+.third div {
+    display: flex;
+    justify-content: center;
+}
+
+.fourth {
+    padding: 40px;
+    background-color: rgb(74, 74, 159);
+    text-align: center;
+    color: white;
+}
+
